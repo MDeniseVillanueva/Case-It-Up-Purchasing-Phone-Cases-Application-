@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+}
+div.phonecase{
+	margin-left:500px;
+}
+
+.navbar{
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    z-index: 999;
+    background-color:aquamarine;
+    box-shadow: 0 0 15px rgba(red, green, blue, alpha);
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding:40px;
+}
+
+.navbar .logo h1{
+    color: firebrick;
+}
+.header .row{
+    margin-top: 70px;
+}
+.phonecase{
+    margin: 70px 0;
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 50px;
+}
+.col-3 img{
+    width: 30%;
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
